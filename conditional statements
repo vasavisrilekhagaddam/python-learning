@@ -1,0 +1,56 @@
+"""if- else conditions
+ if (condition):
+        statement
+else:
+        statement"""
+
+a=12
+b=300
+if b<a:
+    print(b)
+else:
+    print(a)
+""" if -elif condition:
+if (condition):
+statement
+elif (condition):
+    statement
+else:
+statement"""
+
+
+x=20
+y=20
+if x<y:
+    print(x)
+elif x>y:
+    print(y)
+else:
+    print("both are equal")
+
+"""
+if - and condtion:
+if (condition) and (condition):
+    statement 
+    either of conditions are true we will be printing in else condition 
+"""
+a=200
+b=69
+if a>b and a<b:
+    print(a)
+else:
+    print(b)
+
+"""
+if - or condtion:
+if (condition) or (condition):
+statement
+ if one of the condition is false then the statement goes to else statement
+"""
+
+x=234
+b=34
+if x>b or x==b:
+    print(x)
+else:
+    print(b)
