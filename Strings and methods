@@ -1,0 +1,24 @@
+#string are between " " or ' '
+#variables is assigned for strings
+a=("hi, guys . how are you? All good , hi thank you for asking {hello:.2f}")
+print(a)
+for b in a:    #using in in the string
+    print(b)
+
+print(a[0:5])# slicing of string
+print(len(a)) # finding the length of the string
+print(a[:-5])
+print(a.upper())# making thee string in the captial letter
+print(a.lower()) # making string in small letters
+print(a.strip()) # no spacing in the string
+print(a.replace("o" , "b")) # replaceing the word/letters
+print(a.split()) #spling of terms
+print(a.find("hi")) # finding of terms
+print(a.count("hi")) # no.of times the words is returning
+print(a.format(hello=89)) # formatting of a string
+# escapre characters is \ followed by the character that they what to insert in the string"""
+s = 'This string will not include \
+backslashes or newline characters.'
+print (s)
+
+
